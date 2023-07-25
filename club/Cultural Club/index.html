@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <title>Cultural Club</title>
+    <link rel="icon" href="https://presidencyuniversity.in/wp-content/uploads/2019/04/favicon.png" sizes="32x32" />
+    <link rel="icon" href="https://presidencyuniversity.in/wp-content/uploads/2019/04/favicon.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://presidencyuniversity.in/wp-content/uploads/2019/04/favicon.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav id="myNavbar" class="navbar fixed-top navbar-expand-md ">
+            <a class="navbar-brand" href="https://presidencyuniversity.in/"><img class="logo" src="./Assets/logo.png" alt='logo' /></a>
+            <!--College Logo-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon" style="color: white;font-size: xx-large;">&#9776</span>
+            </button>
+            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2 navbar-light " id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto back">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" style="color: white;" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-3 dropdown">
+                        <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Clubs
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="../Social Club/index.html">Social Clubs</a>
+                            <a class="dropdown-item" href="../Sports Club/index.html">Sports Club</a>
+                            <a class="dropdown-item" href="../Educational Club/index.html">Educational Clubs</a>
+                            <a class="dropdown-item" href="../Cultural Club/index.html">Cultural Clubs</a>
+                            <a class="dropdown-item" href="../Physical Club/index.html">Physical Clubs</a>
+                            <a class="dropdown-item" href="../Artistic Club/index.html">Artistic Clubs</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" style="color: white;" href="#">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+
+        <div id="demo" class="carousel slide" style="width: 100vw;" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="imges" src="https://presidencyuniversity.in/wp-content/uploads/2018/08/pic-1.jpg" alt="Los Angeles">
+                    <div class="carousel-caption">
+                        <h1>Cultural Club</h1>
+                        <p>Celebrate the Cultural Fusion</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="imges" src="https://s01.sgp1.digitaloceanspaces.com/large/887110-foyffazxgk-1532682033.jpg" alt="Chicago">
+                    <div class="carousel-caption">
+                        <h1>Cultural Club</h1>
+                        <p>Cultural Expressions, Universal Love</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="imges" src="https://presidencyuniversity.in/wp-content/uploads/2017/02/Meraki12-min.jpg" alt="New York">
+                    <div class="carousel-caption">
+                        <h1>Cultural Club</h1>
+                        <p>The more variety, the better society.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </header>
+    <script>
+        var navbar = document.getElementById("myNavbar");
+
+        window.addEventListener("scroll", function () {
+            if (window.pageYOffset >= 500) {
+                navbar.classList.add("nav-scrolled");
+            } else {
+                navbar.classList.remove("nav-scrolled");
+            }
+        });
+    </script>
+    <div class='my-5 mx-5' style="text-align:center;">
+        <h3> Cultural Facilities </h3>
+        <p style="font-size:20px">The importance of social and cultural activities is preparing students for real life and strengthening their personal skills. Social/cultural activities not only help students to identify themselves with the university, but also assist students to develop themselves in a desired field and also improve skills such as organizational, presentation, leadership and interpersonal communication. As social and cultural activities are of paramount importance, the University encourages all extra-curricular activities that are both in line with the educational objectives of the institution and meet the needs of the students. Culture can be defined as the arts as well as the intangible shared beliefs, values, and practices of a community. Students participate in arts and culture at varying levels of skill and engagement. Some create, while others listen to, watch, teach, critique, or learn a cultural activity, art form, or expression. Some are professional artists, designers, and inventors, while others engage informally in expressive activities or create innovative tools, relationships, or products. The field as a whole can be represented within a framework that has four main aspects: degree of professionalism, type of activity, locations and spaces, and level of participation and involvement. Together, these formal and informal, tangible and intangible, professional and amateur artistic and cultural activities constitute a community’s cultural assets.</p>
+    </div>
+    <div class="row my-5 mx-5">
+        <div class='col'></div>
+        <div class="col-lg-3">
+            <a href="./Dance/index.html" ><div class="card my-4 d-block mx-auto">
+                <img src="assets/My project-1.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">Dance Club</h5>
+                </div>
+            </div></a>
+        </div>
+        <div  class="col-lg-3">
+            <a href="./Fasion/index.html" ><div class="card my-4 d-block mx-auto">
+                <img src="Assets/My project-4.png" class="card-img-top"  alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">Fashion Club</h5>
+                </div>
+            </div></a>
+        </div>
+        <!-- <div class="col-lg-3">
+            <!-- <a href="#" ><div class="card my-4 d-block mx-auto"> -->
+                <!-- <img src="./Assets/Frisbee.jpg" class="card-img-top" alt="..." /> -->
+                <!-- <div class="card-body"> -->
+                    <!-- <h5 class="card-title">Theatrical Club</h5>
+                </div> 
+            </div></a>  
+        </div> -->
+        <div class='col'></div>
+    </div>
+
+    <div class="row my-5 mx-5">
+        <div class='col'></div>
+        <div class="col-lg-3">
+            <a href="./Theater/index.html" ><div class="card my-4 d-block mx-auto">
+                <img src="Assets/My project-2.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">Theatrical Club</h5>
+                </div>
+            </div></a>
+        </div>
+        <div  class="col-lg-3">
+            <a href="./Stand-up/index.html" ><div class="card my-4 d-block mx-auto">
+                <img src="Assets/My project-3.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">Stand Up Comedy Club</h5>
+                </div>
+            </div></a>
+        </div>
+        <!-- <div class="col-lg-3"> -->
+            <!-- <a href="#" ><div class="card my-4 d-block mx-auto"> -->
+                <!-- <img src="./Assets/Indoorgames.jpg " class="card-img-top" alt="..." /> -->
+                <!-- <div class="card-body"> -->
+                    <!-- <h5 class="card-title">IndoorGames Club</h5> -->
+                <!-- </div>
+            </div></a>
+        </div> -->
+        <div class='col'></div>
+    </div>
+</body>
+</html>
