@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSA Club</title> 
+    <link rel="icon" href="https://presidencyuniversity.in/wp-content/uploads/2019/04/favicon.png" sizes="32x32" />
+    <link rel="icon" href="https://presidencyuniversity.in/wp-content/uploads/2019/04/favicon.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://presidencyuniversity.in/wp-content/uploads/2019/04/favicon.png" />
+    <link rel="stylesheet" href="index.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <nav id="myNavbar" class="navbar fixed-top navbar-expand-md ">
+            <a class="navbar-brand" href="https://presidencyuniversity.in/"><img class="logo" src="./img/logo.png" alt='logo' /></a>
+            <!--College Logo-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon" style="color: white;font-size: xx-large;">&#9776</span>
+            </button>
+            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2 navbar-light " id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto back">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" style="color: white;" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mx-3 dropdown">
+                        <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Clubs
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="./Social Club/index.html">Social Clubs</a>
+                            <a class="dropdown-item" href="./Sports Club/index.html">Sports Club</a>
+                            <a class="dropdown-item" href="./Educational Club/index.html">Educational Clubs</a>
+                            <a class="dropdown-item" href="./Cultural Club/index.html">Cultural Clubs</a>
+                            <a class="dropdown-item" href="./Physical Club/index.html">Physical Clubs</a>
+                            <a class="dropdown-item" href="./Artistic Club/index.html">Artistic Clubs</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" style="color: white;" href="#">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="imges" src="./img/ENM684.jpg" alt="Los Angeles">
+                    <!-- <div class="carousel-caption">
+                        <h1>Sports Club</h1>
+                        <p>We had such a great time in LA!</p>
+                    </div> -->
+                </div>
+                <div class="carousel-item">
+                    <img class="imges" src="./img/dsasports.jpeg" alt="Chicago">
+                    <!-- <div class="carousel-caption">
+                        <h1>Sports Club</h1>
+                        <p>Thank you, Chicago!</p>
+                    </div> -->
+                </div>
+                <div class="carousel-item">
+                    <img class="imges" src="./img/slider3dsa.jpeg" alt="New York">
+                    <!-- <div class="carousel-caption">
+                        <h1>Sports Club</h1>
+                        <p>We love the Big Apple!</p>
+                    </div> -->
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        <div class="head-content">
+            <img src="./img/DSA-Logo-01-1-1.png" alt="" class="dsa"> 
+            <h2>WELCOME TO DEPARTMENT OF STUDENT AFFAIRS</h2>
+            <p>DSA at Presidency University caters to the holistic development of students to foster skills <br>
+              of professionalism in them, through various extracurricular activites and opportunities</p>
+        </div>
+    </header>
+    <script>
+        var navbar = document.getElementById("myNavbar");
+
+        window.addEventListener("scroll", function () {
+            if (window.pageYOffset >= 500) {
+                navbar.classList.add("nav-scrolled");
+            } else {
+                navbar.classList.remove("nav-scrolled");
+            }
+        });
+    </script>
+
+    <section id="feature">
+        <h1>CLUBS</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, optio.</p> 
+        <div class="row my-5 mx-5">
+            <div class='col'></div>
+            <div class="col-lg-3">
+                <a class="card-link" href="./Social Club/index.html" ><div class="card my-4 d-block mx-auto">
+                    <img src="img/My project-1.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Social Club</h5>
+                    </div>
+                </div></a>
+            </div>
+            <div  class="col-lg-3">
+                <a class="card-link" href="./Sports Club/index.html" ><div class="card my-4 d-block mx-auto">
+                    <img src="./img/My project-2.png " class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Sports Club</h5>
+                    </div>
+                </div></a>
+            </div>
+            <div  class="col-lg-3">
+                <a class="card-link" href="./Educational Club/index.html" ><div class="card my-4 d-block mx-auto">
+                    <img src="./img/My project-3.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Educational Club</h5>
+                    </div>
+                </div></a>
+            </div>
+            <div class='col'></div>
+        </div>
+
+        <div class="row my-5 mx-5">
+            <div class='col'></div>
+            <div class="col-lg-3">
+                <a class="card-link" href="./Cultural Club/index.html" ><div class="card my-4 d-block mx-auto">
+                    <img src="./img/My project-4.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Cultural Club</h5>
+                    </div>
+                </div></a>
+            </div>
+            <div class="col-lg-3">
+                <a class="card-link" href="./Physical Club/index.html" ><div class="card my-4 d-block mx-auto">
+                    <img src="./img/My project-5.png" class="card-img-top" alt="..."/>
+                    <div class="card-body">
+                        <h5 class="card-title">Physical Club</h5>
+                    </div>
+                </div></a>
+            </div>
+            <div class="col-lg-3">
+                <a class="card-link" href="./Artistic Club/index.html" ><div class="card my-4 d-block mx-auto">
+                    <img src="./img/My project-6.png" class="card-img-top" alt="..."/>
+                    <div class="card-body">
+                        <h5 class="card-title">Artistic Club</h5>
+                    </div>
+                </div></a>
+            </div>
+            <div class='col'></div>
+        </div>
+    </section>  
+
+    <br>
+    <br>
+    <br>
+    
+    <footer>
+        <div class="row">
+            <div class="col-sm-2">
+                <img class="d-block mx-auto" src="./img/DSA-Logo-01-1-1.png" alt="DSA Logo">
+            </div>
+            <div class="col"></div>
+            <div class="col-sm-3 icon">
+                <img src="./img/insta.webp" alt="Insta Icon">
+                <img src="./img/fb.png" alt="FB Icon">
+                <img src="./img/twitter.png" alt="Twitter Icon">
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

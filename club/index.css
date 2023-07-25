@@ -1,0 +1,175 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: rgb(35, 35, 85);
+}
+
+span {
+  font-size: 0.9rem;
+  color: #757373;
+}
+
+h6 {
+  font-size: 1.1rem;
+  color: rgb(24, 24, 49);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+}
+
+.bg-dark {
+  /* background-color: #343a4000!important; */
+  background-color: #343a40 !important;
+}
+
+.logo {
+  width: 250px;
+  height: 100px;
+}
+
+.nav-link {
+  color: white;
+  font-size: 36px;
+}
+
+.nav-link:hover {
+  color: #fc036b !important;
+}
+
+.nav-scrolled {
+  background-color: black;
+}
+
+.imges {
+  width: 100vw;
+  height: 90vh;
+}
+
+.head-content {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  text-align: center;
+  color: white;
+}
+#feature h1,
+p {
+  text-align: center;
+}
+
+footer {
+  padding: 3%;
+  background-color: #101c32;
+}
+
+.dlogo {
+  width: 300px;
+  height: 150px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+}
+
+.icon img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  /* margin: 0 50px 90px 100px;  */
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.card-link,
+.card-link:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.477);
+}
+
+#demo {
+  width: 100vw;
+  height: 92vh;
+}
+#feature {
+  display: block;
+}
+
+@media (max-width: 786px) {
+  .head-content {
+    position: absolute;
+    top: 25%;
+    left: 2%;
+    text-align: center;
+    color: white;
+  }
+
+  .head-content h1 {
+    font-size: x-large;
+    text-shadow: 0px 2px white;
+  }
+
+  .head-content p {
+    font-size: large;
+    text-shadow: 0px 1px white;
+  }
+
+  .imges {
+    width: 100vw;
+    height: 70vh;
+  }
+
+  .logo {
+    width: 210px;
+    height: 91px;
+  }
+
+  .nav-link {
+    color: white;
+    font-size: 20px;
+  }
+  .back {
+    background-color: rgba(128, 128, 128, 0.676);
+    transition: all 0.5s ease;
+    border-bottom-right-radius: 30%;
+  }
+  .back li a:hover {
+    color: red;
+  }
+  .nav-link:hover {
+    color: red;
+  }
+
+  #home {
+    width: 385px;
+  }
+
+  #home h2 {
+    text-align: center;
+  }
+
+  #home p {
+    text-align: center;
+  }
+
+  .dlogo {
+    padding: 40px;
+    width: 130px;
+    height: 80px;
+  }
+
+  .icon {
+    display: flex;
+    justify-content: center;
+    margin-left: -22px;
+  }
+}
