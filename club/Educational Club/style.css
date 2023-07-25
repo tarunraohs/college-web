@@ -1,0 +1,161 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+/* body{
+    /* width: 100rem; */
+ */
+  
+.bg-dark {
+    /* background-color: #343a4000!important; */
+    background-color: #343a40!important ;
+} 
+
+.logo{
+    width : 250px;
+    height: 100px;
+}
+.nav-link{
+    color: white;
+    font-size: 36px;
+}
+
+.nav-link:hover{
+    color: #fc036b!important;
+}
+
+.nav-scrolled{
+    background-color: black;
+}
+
+.imges{
+    width: 100vw;
+    height: 90vh;
+}
+
+.col-lg-3 a{
+    text-decoration: none;
+    color: black;
+}
+
+.col-lg-3 a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.477);
+} 
+
+
+@media only screen and (max-width: 768px){
+    .logo{
+        width: 123px;
+        height: 60px;
+    }
+    .imges{
+        width: 100vw;
+        height: 60vh;
+    }
+    .nav-link{
+        color: white;
+        font-size: 20px;
+    }
+    .back{
+        background-color: rgba(128, 128, 128, 0.676);
+        transition: all 0.5s ease;
+        border-bottom-right-radius:30%;
+    }
+    .back li a:hover{
+        color: red;
+    }
+    nav-link:hover{
+        color: red;
+    }
+    .fixed-top {
+        position: absolute!important; 
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+    
+    /* #demo{
+        height: 60vh;
+    } */
+}
+
+@media only screen and (max-width:281px){
+    .logo{
+        width: 120px;
+        height: 70px;
+    }
+    .fixed-top {
+        position: absolute!important; 
+        /* width: 127vw; */
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    header {
+        width: 126.80000000000001vw;
+        height: 70vh;
+        background-image: url('Assets/Mobile.jpg');
+    }
+
+    .back{
+        font-size: medium;
+    }
+    /* #demo{
+        height: 60vh;
+    } */
+    .carousel-item{
+        height: 60vh!important;
+    } 
+}
+
+@media only screen and (max-width:280px){
+    body{
+        width: 126.80000000000001vw;;
+    }
+    .logo{
+        width: 100px;
+        height: 50px;
+    }
+    .fixed-top {
+        position: absolute!important; 
+        width: 127vw;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    header {
+        width: 126.80000000000001vw;
+        height: 90vh;
+        background-image: url('Assets/sports.jpg');
+        background-size: cover;
+    }
+    #demo{
+        display: none;
+    }
+
+    #card{
+        width: 100px;
+    } 
+
+    .card-img, .card-img-top{
+        width: 100px;
+        height: 100px;
+    }
+
+    .back{
+        font-size: small;
+    }
+    .carousel-item{
+        height: 60vh!important;
+    }
+}
